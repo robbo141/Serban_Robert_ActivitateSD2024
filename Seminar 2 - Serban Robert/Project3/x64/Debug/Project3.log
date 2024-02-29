@@ -1,0 +1,5 @@
+﻿  Seminar2.c
+C:\Users\ROBI\source\repos\Project3\Seminar2.c(15,42): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\ROBI\source\repos\Project3\Seminar2.c(16,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\ROBI\source\repos\Project3\Seminar2.c(123,64): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+  Project3.vcxproj -> C:\Users\ROBI\source\repos\Project3\x64\Debug\Project3.exe
