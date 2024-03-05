@@ -1,0 +1,6 @@
+﻿  SDD3.c
+C:\Users\stud\source\repos\Seminar 3 - Serban Robert\Seminar 3 - Serban Robert\SDD3.c(51,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\stud\source\repos\Seminar 3 - Serban Robert\Seminar 3 - Serban Robert\SDD3.c(73,9): warning C4473: 'printf' : not enough arguments passed for format string
+C:\Users\stud\source\repos\Seminar 3 - Serban Robert\Seminar 3 - Serban Robert\SDD3.c(73,9): message : placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+C:\Users\stud\source\repos\Seminar 3 - Serban Robert\Seminar 3 - Serban Robert\SDD3.c(73,9): message : the missing variadic argument 1 is required by format string '%d'
+  Seminar 3 - Serban Robert.vcxproj -> C:\Users\stud\source\repos\Seminar 3 - Serban Robert\x64\Debug\Seminar 3 - Serban Robert.exe
