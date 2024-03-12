@@ -1,0 +1,19 @@
+﻿  Seminar 4.c
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(51,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(53,40): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(53,40): warning C4024: 'adaugareInVector': different types for formal and actual parameter 3
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(63,21): warning C4047: '<': 'int' differs in levels of indirection from 'int *'
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(89,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(122,35): error C2332: 'struct': missing tag name
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(122,44): error C2143: syntax error: missing ')' before '*'
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(122,44): error C2143: syntax error: missing '{' before '*'
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(122,60): error C2059: syntax error: 'type'
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(122,87): error C2059: syntax error: ')'
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(146,21): warning C4047: '<': 'int' differs in levels of indirection from 'int *'
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(148,18): error C2231: '.id': left operand points to 'struct', use '->'
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(148,30): error C2065: 'id': undeclared identifier
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(177,39): warning C4047: 'function': 'int *' differs in levels of indirection from 'int'
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(177,39): warning C4024: 'citireMatrice': different types for formal and actual parameter 3
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(180,17): warning C4013: 'cautaMasinaID' undefined; assuming extern returning int
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(180,16): error C2440: '=': cannot convert from 'int' to 'Masina'
+C:\Users\stud\source\repos\Seminar 4\Seminar 4\Seminar 4.c(184,2): warning C4013: 'dezalocareMatrice' undefined; assuming extern returning int
