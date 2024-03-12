@@ -60,12 +60,12 @@ struct Masina* citireFisier(const char* numeFisier, int* nrMasini)
 void afisareMatrice(struct Masina** matrice,int nrLinii, int *nrColoane)
 {
 	for(int i=0;i<nrLinii;i++)
-		for (int j = 0; j < nrColoane; j++)
+		for (int j = 0; j < *(nrColoane); j++)
 		{
 			printf(" Masina %d marca %s cu %d usi costa %5.2f lei\t ", matrice[i][j].id, matrice[i][j].producator, matrice[i][j].nrUsi, matrice[i][j].pret);
+			printf("\n");
 		}
 
-	printf("\n");
 }
 
 
@@ -119,7 +119,7 @@ float pretMediu(struct Masina** matrice, int NrLinii, int* nrColoane, int nrUsi)
 }
 
 
-struct Masina cautaMasinaID(struct** Masina** matrice, int nrLinii, int* nrCol, int id)
+struct Masina cautaMasinaID(struct Masina** matrice, int nrLinii, int* nrCol, int id)
 {
 	for (int i = 0; i < nrLinii; i++)
 	{
@@ -139,13 +139,13 @@ struct Masina cautaMasinaID(struct** Masina** matrice, int nrLinii, int* nrCol, 
 }
 
 
-void dezalocareMarice(struct Masina*** matrice, int nrLinii,int ** nrCol )
+void dezalocareMarice(struct Masina*** matrice, int* nrLinii,int ** nrCol )
 {
 	for (int i = 0; i < nrLinii; i++)
 	{
 		for (int j = 0; j < nrCol[i]; j++)
 		{
-			if (matrice[i][j].id == id)
+			if ((*matrice)[i][j].producator!=NULL)
 				free((*matrice)[i][j].producator);
 		}
 		free((*matrice[i]));
@@ -163,6 +163,7 @@ int main()
 	struct Masina** matrice;
 	int nrLinii = 3;
 	int* nrCol;
+	float pret=0;
 	nrCol = (int*)malloc(sizeof(int) * nrLinii); //vectorul de lungimi
 	matrice = (struct Masina**)malloc(sizeof(struct Masina*) * nrLinii);
 
@@ -176,10 +177,11 @@ int main()
 
 	citireMatrice("masini.txt", matrice, nrLinii, nrCol);
 	afisareMatrice(matrice, nrLinii, nrCol);
-	pretMediu(matrice, nrLinii, nrCol, 4);
+	pret=pretMediu(matrice, nrLinii, nrCol, 4);
+	printf("\n Pretul mediu este %5.2f\n",pret);
 	masina_cautata=cautaMasinaID(matrice, nrLinii, nrCol, 20);
 
-	printf(" %d a %s  %d  %5.2f \t ", masina_cautata.id, masina_cautata.producator, masina_cautata.nrUsi, masina_cautata.pret);
+	printf(" Masina cu id-ul cautat : %d  %s  %d  %5.2f \t ", masina_cautata.id, masina_cautata.producator, masina_cautata.nrUsi, masina_cautata.pret);
      
 	dezalocareMatrice(&matrice, nrLinii, &nrCol);
 	
