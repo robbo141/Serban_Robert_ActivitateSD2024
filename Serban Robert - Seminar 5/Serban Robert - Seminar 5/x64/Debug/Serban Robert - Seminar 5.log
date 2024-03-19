@@ -1,0 +1,4 @@
+﻿  SDD5.c
+C:\Users\stud\source\repos\Serban Robert - Seminar 5\Serban Robert - Seminar 5\SDD5.c(23,41): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\stud\source\repos\Serban Robert - Seminar 5\Serban Robert - Seminar 5\SDD5.c(24,5): warning C4013: 'strcpy' undefined; assuming extern returning int
+  Serban Robert - Seminar 5.vcxproj -> C:\Users\stud\source\repos\Serban Robert - Seminar 5\x64\Debug\Serban Robert - Seminar 5.exe
