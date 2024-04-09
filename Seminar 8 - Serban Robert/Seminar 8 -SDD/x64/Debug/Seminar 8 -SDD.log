@@ -1,0 +1,4 @@
+﻿  SDD8.c
+C:\Users\stud\source\repos\Seminar 8 -SDD\Seminar 8 -SDD\SDD8.c(158,9): warning C4129: 'E': unrecognized character escape sequence
+C:\Users\stud\source\repos\Seminar 8 -SDD\Seminar 8 -SDD\SDD8.c(105): warning C4715: 'extragereMax': not all control paths return a value
+  Seminar 8 -SDD.vcxproj -> C:\Users\stud\source\repos\Seminar 8 -SDD\x64\Debug\Seminar 8 -SDD.exe
