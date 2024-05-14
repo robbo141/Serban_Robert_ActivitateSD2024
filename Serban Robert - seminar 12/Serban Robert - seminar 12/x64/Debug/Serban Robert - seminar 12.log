@@ -1,0 +1,9 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Serban Robert - seminar 12.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Seminar11.c
+C:\Users\stud\source\repos\Serban Robert - seminar 12\Serban Robert - seminar 12\Seminar11.c(1,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\stud\source\repos\Serban Robert - seminar 12\Serban Robert - seminar 12\Seminar11.c(1,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+C:\Users\stud\source\repos\Serban Robert - seminar 12\Serban Robert - seminar 12\Seminar11.c(27,40): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\stud\source\repos\Serban Robert - seminar 12\Serban Robert - seminar 12\Seminar11.c(28,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\stud\source\repos\Serban Robert - seminar 12\Serban Robert - seminar 12\Seminar11.c(73): warning C4715: 'inaltimeArbore': not all control paths return a value
+C:\Users\stud\source\repos\Serban Robert - seminar 12\Serban Robert - seminar 12\Seminar11.c(83): warning C4715: 'calculGradEchilibru': not all control paths return a value
+  Serban Robert - seminar 12.vcxproj -> C:\Users\stud\source\repos\Serban Robert - seminar 12\x64\Debug\Serban Robert - seminar 11.exe
