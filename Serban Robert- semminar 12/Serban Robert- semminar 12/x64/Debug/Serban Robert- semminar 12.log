@@ -1,0 +1,4 @@
+﻿  SDD12.c
+C:\Users\stud\source\repos\Serban Robert- semminar 12\Serban Robert- semminar 12\SDD12.c(32,47): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\stud\source\repos\Serban Robert- semminar 12\Serban Robert- semminar 12\SDD12.c(33,2): warning C4013: 'strcpy_s' undefined; assuming extern returning int
+  Serban Robert- semminar 12.vcxproj -> C:\Users\stud\source\repos\Serban Robert- semminar 12\x64\Debug\Serban Robert- semminar 12.exe
